@@ -1,0 +1,40 @@
+/* Red color for delete icon */
+.deleteicon {
+  color: rgb(213, 96, 96);
+}
+
+/* Black color for edit icon */
+.editicon {
+  color: black;
+}
+.saveicon {
+  color: rgb(126, 193, 126);
+}
+
+.fas {
+  color: black;
+}
+
+.icons * {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.readOnly {
+  border: none;
+  width: 90%;
+  text-overflow: ellipsis;
+}
+
+.selected {
+  background: lightgray;
+}
+
+.selected input {
+  background: hsl(0, 0%, 90%);
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}
